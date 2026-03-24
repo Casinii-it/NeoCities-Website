@@ -6,6 +6,159 @@
 }
 
 .background {
+    background-image: url("assets/images/background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    filter: blur(1px) brightness(70%);
+}
+
+
+
+body {
+    padding: 20px;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+
+header {
+    border-radius: 30px;
+    background-color: rgba(ff,ff,ff,.3);
+    backdrop-filter: brightness(115%) blur(10px);
+
+    box-shadow: inset 0px 0px 10px rgba(255,255,255,.7);
+    filter: drop-shadow( -10px -10px 10px rgba(0,0,0,0.4));
+
+    padding: 10px;
+
+    font-size: 80px;
+    font-family: Quicksand;
+    font-weight: 900;
+    display: table;
+    height: auto;
+    width: auto;
+    align-content: center;
+    z-index: 9;
+    text-align: center;
+}
+
+text {
+    border-radius: 15px;
+    background-color: rgba(ff,ff,ff,.3);
+    backdrop-filter: brightness(115%) blur(10px);
+
+    box-shadow: inset 0px 0px 10px rgba(255,255,255,.7);
+    filter: drop-shadow( -10px -10px 10px rgba(0,0,0,0.4));
+    padding: 10px;
+
+    font-size: 20px;
+    font-family: Quicksand;
+    font-weight: 900;
+
+    z-index: 9;
+    text-align: left;
+}
+
+a {
+
+    border-bottom: #0099ff 0.25em solid;
+    text-decoration: none;
+    color: #ffffff;
+}.quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.background {
+    background-image: url("assets/images/background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    filter: blur(1px) brightness(70%);
+}
+
+
+
+body {
+    padding: 20px;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+
+header {
+    border-radius: 30px;
+    background-color: rgba(ff,ff,ff,.3);
+    backdrop-filter: brightness(115%) blur(10px);
+
+    box-shadow: inset 0px 0px 10px rgba(255,255,255,.7);
+    filter: drop-shadow( -10px -10px 10px rgba(0,0,0,0.4));
+
+    padding: 10px;
+
+    font-size: 80px;
+    font-family: Quicksand;
+    font-weight: 900;
+    display: table;
+    height: auto;
+    width: auto;
+    align-content: center;
+    z-index: 9;
+    text-align: center;
+}
+
+text {
+    border-radius: 15px;
+    background-color: rgba(ff,ff,ff,.3);
+    backdrop-filter: brightness(115%) blur(10px);
+
+    box-shadow: inset 0px 0px 10px rgba(255,255,255,.7);
+    filter: drop-shadow( -10px -10px 10px rgba(0,0,0,0.4));
+    padding: 10px;
+
+    font-size: 20px;
+    font-family: Quicksand;
+    font-weight: 900;
+
+    z-index: 9;
+    text-align: left;
+}
+
+a {
+    border-bottom: #0099ff 0.25em solid;
+    text-decoration: none;
+    color: #ffffff;
+}.quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.background {
     background-image: url("assets/images/STRLGHT-esque music cover4.png");
     background-position: center center;
     background-repeat: no-repeat;
